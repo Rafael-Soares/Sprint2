@@ -1,0 +1,6 @@
+# para instalar as dependências é necessário que execute o seguinte comando: pip install -r requirements.txt
+
+Django        # INSTALAÇÃO DO DJANGO.
+Pillow         # PARA UTILIZAR O IMAGEFIELD
+pylint           # UTILIZADO PARA VERICAÇÃO DE ERROS
+pylint-django	# UTILIZADO PARA VERICAÇÃO DE ERROS

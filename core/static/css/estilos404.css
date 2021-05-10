@@ -1,0 +1,147 @@
+/* .bg-404 {
+    background-image: url("../img/bg404.png") !important;
+    background-position: center;
+    background-color: #FCFCFC;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+clip-path: polygon(0 0, 0% 100%, 100% 100%);
+} */
+
+.main {
+    background: #FCFCFC;
+}
+
+.inferior {
+    /* width: 100%; */
+    height: 100vh;
+    background-color: #dddddd;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.superior {
+    position: relative;
+}
+
+.conteudo {
+    position: absolute;
+    height: 100vh;
+    margin: 21px 155px 115px;
+}
+
+.erro {
+    position: absolute;
+    left: 100% !important;
+}
+
+.erro h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 288px;
+    line-height: 351px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DDDDDD;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.mensagem {
+    margin-top: 60% !important;
+    align-items: center;
+    text-align: center;
+}
+
+.mensagem h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 67px;
+    align-items: center;
+    text-align: center;
+    color: #151D3F;
+}
+
+.mensagem h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #303B68;
+    align-items: justify;
+    text-align: justify;
+}
+
+.mensagem p,
+.mensagem h6 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 144%;
+    align-items: justify;
+    text-align: justify;
+    letter-spacing: 0.015em;
+    color: #595959;
+}
+
+.mensagem h6 {
+    font-size: 18px;
+}
+
+.mensagem h6 a {
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: #151D3F;
+}
+
+.search-cont {
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.search-cont input {
+    width: 96%;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    outline: none !important;
+}
+
+.search-cont button {
+    all: initial;
+    background-color: transparent;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px) {
+    .conteudo {
+        padding: 20px;
+        margin: 0;
+    }
+    .mensagem h3,
+    .mensagem h6 {
+        align-items: center;
+        text-align: center;
+    }
+    .search-cont input {
+        width: 92%;
+    }
+    .erro {
+        position: absolute;
+        left: 30px !important;
+    }
+    .erro h1 {
+        font-size: 160px;
+        line-height: normal;
+    }
+}
