@@ -14,6 +14,7 @@ class ListandoServicos(admin.ModelAdmin):
     list_display = ('id', 'title_servico', 'descricao_servico')
     list_display_links = ('id', 'title_servico')
     list_per_page = 3
+
 admin.site.register(Servicos, ListandoServicos)
 
 class ListandoPortfolio(admin.ModelAdmin):
